@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/conversation.schema.json",
+  "title": "Conversation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "createdAt", "updatedAt"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "updatedAt": { "type": "string" }
+  }
+}
+

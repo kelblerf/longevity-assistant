@@ -1,0 +1,50 @@
+name: Production Evals
+
+on:
+  pull_request:
+    paths:
+      - "src/backend/**"
+      - "scripts/run-production-evals.ps1"
+      - "package.json"
+      - ".github/workflows/production-evals.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "src/backend/**"
+      - "scripts/run-production-evals.ps1"
+      - "package.json"
+      - ".github/workflows/production-evals.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-evals-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  production-evals:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "src/backend/pyproject.toml"
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install backend and test dependencies
+        run: python -m pip install -e "./src/backend[dev]"
+
+      - name: Run production eval suite
+        shell: pwsh
+        run: ./scripts/run-production-evals.ps1

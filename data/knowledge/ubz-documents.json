@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ubz-breath-fasting-context",
+    "title": "Pusty a dech v souvislostech",
+    "authorityTier": "ubz_primary",
+    "notionSearchTitle": "Pusty a dech v souvislostech",
+    "notionPath": "Digitalni druhy mozek / Temata / UBZ Energo evoluce 2025 / Pusty a dech v souvislostech",
+    "summary": "Dech, rytmus a post nejsou vykonove techniky, ale nastroje regulace, zjednoduseni a navratu k vnitrni stabilite.",
+    "guidance": "Kdyz je organismus pretizeny, zacinejte jemnou regulaci dechu a zjednodusenim rytmu dne misto dalsiho tlaku na vykon.",
+    "themes": ["dech", "pust", "regenerace", "stres", "rytmus"],
+    "keywords": ["dech", "dychani", "pust", "pusty", "regenerace", "stres", "rytmus", "stabilita"]
+  },
+  {
+    "id": "ubz-vision-being-healthy",
+    "title": "VIZE Umeni byt zdrav",
+    "authorityTier": "ubz_primary",
+    "notionPageId": "daef812067644ecc874189de396e1c31",
+    "notionPath": "Digitalni druhy mozek / Temata / UBZ Energo evoluce 2025 / VIZE Umeni byt zdrav",
+    "summary": "Zdravi je chapane jako schopnost zit vedomeji, stabilneji a zodpovedneji v kazdodennich rozhodnutich.",
+    "guidance": "Doporuceni maji podporit dlouhodobou zivotospravu a osobni zodpovednost, ne jen rychlou opravu symptomu.",
+    "themes": ["vize", "zdravi", "dlouhovekost", "hodnoty"],
+    "keywords": ["vize", "zdravi", "dlouhovekost", "hodnoty", "smer", "smysl", "zivot"]
+  },
+  {
+    "id": "ubz-manifest-creator",
+    "title": "Manifest Tvurce",
+    "authorityTier": "ubz_primary",
+    "notionPageId": "19d1b27aac7e80abb00cd95e70bc9710",
+    "notionPath": "Digitalni druhy mozek / Temata / UBZ Energo evoluce 2025 / Manifest Tvurce",
+    "summary": "Zmena se stava udrzitelnou, kdyz clovek neceka jen na vnejsi navod, ale aktivne se podili na svem rytmu, navycich a volbach.",
+    "guidance": "Asistent ma uzivatele vest aktivne, ale klidne: pojmenovat dalsi krok, ne prebirat plnou zodpovednost za zivotni rozhodnuti.",
+    "themes": ["navyky", "motivace", "zmena", "zodpovednost"],
+    "keywords": ["navyk", "navyky", "motivace", "zmena", "zodpovednost", "volba", "tvurce"]
+  },
+  {
+    "id": "ubz-humanology",
+    "title": "Clovekologie",
+    "authorityTier": "ubz_primary",
+    "notionPageId": "19d1b27aac7e8084915fef5ff20288c8",
+    "notionPath": "Digitalni druhy mozek / Temata / UBZ Energo evoluce 2025 / Clovekologie",
+    "summary": "Telesne projevy je potreba cist v sirsich souvislostech: nervovy system, rytmus, regenerace, vztahy, zatez a prostredi.",
+    "guidance": "Kdyz se objevi zdravotni signal, nejdriv rozsir souvislosti misto rychleho zjednoduseni na jeden izolovany faktor.",
+    "themes": ["souvislosti", "nervovy_system", "regenerace", "vnimani_tela"],
+    "keywords": ["souvislost", "souvislosti", "nervovy", "system", "telo", "signal", "regenerace", "vnimani"]
+  },
+  {
+    "id": "ubz-energo-evolution",
+    "title": "Energo evoluce 2025",
+    "authorityTier": "ubz_primary",
+    "notionPageId": "3f07eaf8b5fa407e836b220568780d64",
+    "notionPath": "Digitalni druhy mozek / Temata / UBZ Energo evoluce 2025",
+    "summary": "UBZ tematicka vetev propojuje vizi, dech, navyky, regeneraci a vzdelavaci obsah do jednoho dlouhodobeho rozvojoveho ramce.",
+    "guidance": "Asistent ma mit dlouhodoby pohled: nesledovat jen jednotlive udalosti, ale vyvoj rytmu, energie a adaptability v case.",
+    "themes": ["ubz", "energie", "adaptace", "dlouhodoby_rozvoj"],
+    "keywords": ["ubz", "energie", "adaptace", "dlouhodoby", "rozvoj", "evoluce", "energo"]
+  }
+]

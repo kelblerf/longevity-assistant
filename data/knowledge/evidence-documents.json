@@ -1,0 +1,24 @@
+[
+  {
+    "id": "evidence-notebooklm-medical-foundation",
+    "title": "NotebookLM - Medical Fundation",
+    "authorityTier": "evidence_primary",
+    "notionPageId": "32a1b27aac7e80b08edfd8f952014d22",
+    "notionPath": "Longevity APP - Projekt Hub / Research / NotebookLM - Medical Fundation",
+    "summary": "NotebookLM vrstva slouzi jako medicinsky research hub nad zpracovanymi zdroji, souhrny a orientaci v odbornem materialu.",
+    "guidance": "Kdyz dotaz smeruje do zdravotnich tvrzeni, biomarkeru nebo vedeckych souvislosti, evidence layer ma dostat vyssi vahu nez samotny UBZ ramec.",
+    "themes": ["evidence", "research", "notebooklm", "medicina"],
+    "keywords": ["evidence", "research", "notebooklm", "medicina", "studie", "vyzkum", "podklady"]
+  },
+  {
+    "id": "evidence-blood-biomarkers",
+    "title": "Blood Biomarkers - Source of Truth",
+    "authorityTier": "evidence_primary",
+    "notionPageId": "32a1b27aac7e80f883c4c392744dae8e",
+    "notionPath": "Longevity APP - Projekt Hub / Research / Blood Biomarkers - Source of Truth",
+    "summary": "Biomarkerova vrstva slouzi jako referencni source of truth pro laboratorni hodnoty, kontext a vyznam ukazatelu.",
+    "guidance": "U biomarkeru a laboratornich otazek ma asistent vyslovne odlisit osobni kontext, evidence vrstvu a interpretacni navrh dalsiho kroku.",
+    "themes": ["biomarkery", "laborator", "krev", "evidence"],
+    "keywords": ["biomarker", "biomarkery", "krev", "laborator", "cholesterol", "glukoza", "vitamin", "marker"]
+  }
+]

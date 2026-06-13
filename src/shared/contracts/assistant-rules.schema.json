@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/assistant-rules.schema.json",
+  "title": "AssistantRules",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profileId",
+    "assistantIdentity",
+    "voiceMode",
+    "sourceScopeDefault",
+    "ubzPriority",
+    "notebookLmRole",
+    "dnaPolicy",
+    "warningTone"
+  ],
+  "properties": {
+    "profileId": { "type": "string" },
+    "assistantIdentity": { "type": "string" },
+    "voiceMode": {
+      "type": "string",
+      "enum": ["text_first", "voice_optional"]
+    },
+    "sourceScopeDefault": {
+      "type": "string",
+      "enum": [
+        "core_only",
+        "core_plus_domain",
+        "core_plus_extended",
+        "full_research"
+      ]
+    },
+    "ubzPriority": {
+      "type": "string",
+      "enum": ["primary_behavioral_layer"]
+    },
+    "notebookLmRole": {
+      "type": "string",
+      "enum": ["evidence_research_layer"]
+    },
+    "dnaPolicy": {
+      "type": "string",
+      "enum": ["recommendation_only"]
+    },
+    "warningTone": {
+      "type": "string",
+      "enum": ["calm_explanatory"]
+    }
+  }
+}
+

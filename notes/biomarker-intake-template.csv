@@ -1,0 +1,5 @@
+report_date,reported_date,lab_name,fasting_state,marker_key,marker_label,category,value,unit,comparator,reference_low,reference_high,reference_text,status,source_sheet,source_row,notes
+2024-05-18,2024-05-19,Synlab,fasting,glucose_fasting,Glukoza nalacno,glucose_metabolism,5.2,mmol/L,exact,3.9,5.6,,unknown,Bloodwork Archive,12,
+2024-05-18,2024-05-19,Synlab,fasting,hba1c,HbA1c,glucose_metabolism,5.3,%,exact,4.0,5.6,,unknown,Bloodwork Archive,13,
+2024-05-18,2024-05-19,Synlab,fasting,ldl_c,LDL cholesterol,lipids,2.7,mmol/L,exact,0,3.0,,unknown,Bloodwork Archive,14,
+2024-05-18,2024-05-19,Synlab,fasting,hs_crp,hs-CRP,inflammation,1.2,mg/L,exact,0,3.0,,unknown,Bloodwork Archive,15,

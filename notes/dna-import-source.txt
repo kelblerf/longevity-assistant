@@ -1,0 +1,140 @@
+Zdroj: DNA Health report, konsolidovany vyber z obou podkladu
+
+Osobni pracovni souhrn pro prvni DNA import do Longevity-assistant.
+DNA markery se maji brat jako doporucujici signaly, ne jako konecne verdikty.
+
+1. Laktoza a traveni
+Gen MCM6 -13910C>T vysel jako TC nebo CT.
+To odpovida lactase persistence v kavkazske populaci.
+Text nenasvedcuje geneticke predispozici k intoleranci laktozy.
+Pokud by se po mlecnem objevovaly priznaky, maji se hodnotit hlavne podle realne reakce,
+zdravi strev a kontextu jidla, ne jako cisty geneticky zakaz laktozy.
+
+2. Kofein
+Gen CYP1A2 vysel jako AA.
+Jedna se o rychly metabolismus kofeinu.
+Kofein pravdepodobne neni problem sam o sobe, ale ma se stale cist v souvislosti
+se spankem, energii, casem podani a subjektivni reakci.
+
+3. Methylace a folat
+MTHFR 677 C>T vysel jako CC, tedy normalni funkce.
+MTHFR 1298 A>C vysel jako CA.
+Alela C je spojena se snizenou funkci enzymu.
+To znamena zvysene naroky na folat a muze byt zadouci sledovat i B2, B6 a B12.
+Na zaklade krevnich a dalsich testu lze zvazit methylfolat, B2, B6 a B12.
+MTR 2756 A>G vysel jako AA, MTRR 66 A>G jako AA, CBS 699 C>T jako CC a COMT 472 G>A jako GG.
+Tyto oblasti nevypadaji jako hlavni rizikovy problem.
+Methylacni oblast je vhodne cist spolu s biomarkery, homocysteinem, B12 a celkovou evidence vrstvou.
+
+4. Vitamin B12
+FUT2 Gly258Ser 772 G/A vysel jako GG.
+To je spojeno se zvysenym rizikem nizsi hladiny vitaminu B12.
+Je vhodne hlidat B12, pripadne i homocystein, energii a neurologicke souvislosti.
+
+5. Zanetliva, lipidova a kardiometabolicka regulace
+LPL 1595 C>G vysel jako CC.
+Tento genotyp postrada ochrannou funkci alely G a muze souviset s vyssimi triglyceridy,
+vyssim VLDL a nizsim HDL.
+Je to signal pro kvalitni praci s tuky, sacharidy a telesnou hmotnosti.
+
+CETP 279 G>A vysel jako AA.
+To je priznivy signal se sklonem k vyssimu HDL.
+
+APOC3 3175 C>G vysel jako CC.
+Text ho hodnoti jako priznivy a bez potreby specialni intervence.
+
+APOE vysel jako E3/E3.
+Jde o neutralni izoformu bez silneho rizikoveho posunu.
+
+PON1 vysel jako AA.
+Text ho hodnoti jako normalni aktivitu a priznivou ochranu proti oxidaci LDL a HDL.
+
+IL6 -174 G>C vysel jako CC.
+To je spojeno s vyssimi koncentracemi IL-6 a CRP a se sklonem k zanetu,
+zvlast pokud je pritomen nevhodny zivotni styl.
+Doporuceny smer je protizanetliva strava, dostatek omega-3, omezeni nasycenych tuku,
+dobra hmotnost, nekourit a pravidelne hlidat glykemii a lipidovy profil.
+
+IL1B -511 A>G vysel jako GA a IL1RN 2018 C>T jako TT.
+To podporuje sklon k prozanetlivym stavum a posiluje smysl pro protizanetlivou stravu,
+omega-3, antioxidanty, pohyb a management stresu.
+
+FADS1 rs174537 G>T vysel jako GT.
+Alela G je spojena s vyssi konverzi DGLA na AA a muze souviset s vyssim systemovym zanetem.
+Je vhodne sledovat rovnovahu omega-3 a omega-6, zanetlive projevy a pripadne lipidovy profil.
+
+6. Oxidacni stres a antioxidanty
+SOD2 / MnSOD -28 C>T vysel jako CC.
+To je relevantni signal pro vyssi narok na antioxidanty a podporu mitochondrialni ochrany.
+
+CAT -262 C>T vysel jako CT.
+To je spojeno se snizenou aktivitou katalazy.
+Smer doporuceni: dostatek polyfenolu, zeleniny a omezeni zbytecne expozice karcinogenum.
+
+GPX1 Pro198Leu vysel jako CT.
+To je dalsi signal pro snizenou antioxidadni rezervu a vyssi citlivost na oxidacni stres.
+Je vhodne pamatovat i na dostatek selenu ve strave.
+
+BCO1 G>T vysel jako GG.
+To je spojeno s nizsi konverzi beta-karotenu na aktivni vitamin A.
+Je vhodne pamatovat na zdroje aktivniho vitaminu A nebo velmi kvalitni prijem karotenoidu.
+
+7. Inzulin a citlivost na prijem tuku
+PPARG Pro12Ala vysel jako CC.
+To je signal vyssi citlivosti na typ a mnozstvi prijimaneho tuku.
+Smer doporuceni: zvysit MUFA a snizit nasycene tuky.
+
+TCF7L2 rs7903146 C>T vysel jako CT.
+To je spojeno se zvysenym rizikem inzulinove rezistence a diabetu 2. typu,
+zvlast pri nevyhodnem zivotnim stylu.
+
+SLC2A2 Thr110Ile vysel jako CC.
+Tento genotyp je citlivy na druh a mnozstvi tuku ve strave a podporuje duraz na kvalitu tuku.
+Je vhodne hlidat kvalitu tuku, zvysit MUFA a snizit SAT FAT.
+
+FTO rs9939609 vysel jako AT.
+To je potvrzeny signal vyssiho sklonu k vyssimu BMI, vyssimu podilu telesneho tuku,
+horsimu pocitu sytosti a vetsi citlivosti na nadbytek tuku pri sedavem rezimu.
+Je vhodne pracovat s pohybem, sytosti, strukturou jidla a celkovym prijmem tuku.
+
+8. Reakce na potravinove slozky, sul a zdravi strev
+HLA vysel jako DQ2.2.
+To ukazuje stredni genetickou nachylnost k celiakii pri vysokem prijmu lepku.
+Nejde o diagnozu, ale o signal.
+Pokud jsou pritomne travici obtize, unava, nadymani, krece nebo prujem,
+je vhodne to resit spolu s klinickym kontextem a pripadnym dalsim testovanim.
+
+ACE vysel jako ID a AGT jako TC.
+To ukazuje mirnou az stredni citlivost na sul a krevni tlak.
+Je vhodne drzet prijem soli rozumne nizko a omezit ultra-prumyslove zpracovane potraviny.
+
+TAS2R38 ukazuje stredni vnimavost horke chute.
+To muze ovlivnovat preference zeleniny a sladkych potravin, takze je vhodne s tim pracovat vedome.
+
+ALDH2 vysel jako GG.
+To je priznivy signal pro normalni metabolismus alkoholu, ale ne duvod alkohol doporucovat.
+
+9. Vitaminy, kosti a podpurne oblasti
+Vitamin D oblast nevypada vysoce rizikove, ale je stale rozumne pravidelne merit 25-OH vitamin D.
+
+VDR Fok1 vysel jako TC.
+To je mirny signal pro peclivost kolem prijmu vapniku, vitaminu D a kostniho metabolismu.
+
+10. Interpretacni pravidlo pro asistenta
+DNA se nema pouzivat jako definitivni verdikt.
+Ma slouzit jako doporucujici vrstva pro:
+- traveni a reakce na jidlo
+- kofein a denni rytmus
+- methylaci, B12 a evidence vrstvu
+- zanet, oxidacni stres a regeneraci
+- inzulinovou citlivost
+- lipidy a kardiometabolickou regulaci
+- citlivost na sul a tlak
+- mozne konflikty mezi predispozici a realnym chovanim
+
+Pri konfliktu mezi DNA a realnou reakci ma mit vyssi vahu:
+- skutecna telesna reakce
+- biomarkery
+- symptomy
+- dlouhodoby trend
+- klinicky kontext

@@ -1,0 +1,17 @@
+{
+  "name": "longevity-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "src/frontend"
+  ],
+  "scripts": {
+    "dev:backend": ".venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --app-dir src/backend",
+    "test:backend": ".venv\\Scripts\\python.exe -m pytest src/backend/tests -q",
+    "eval:production": "powershell -ExecutionPolicy Bypass -File scripts\\run-production-evals.ps1",
+    "dev:frontend": "npm --workspace src/frontend run dev",
+    "build:frontend": "npm --workspace src/frontend run build",
+    "lint:frontend": "npm --workspace src/frontend run lint",
+    "dna:import-draft": "powershell -ExecutionPolicy Bypass -File scripts\\import-dna-draft.ps1"
+  }
+}

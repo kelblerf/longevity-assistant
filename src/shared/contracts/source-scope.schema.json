@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/source-scope.schema.json",
+  "title": "SourceScopeSelection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mode",
+    "groups",
+    "locked"
+  ],
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [
+        "core_only",
+        "core_plus_domain",
+        "core_plus_extended",
+        "full_research"
+      ]
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "profile",
+          "app_health_data",
+          "app_genetics_data",
+          "app_nutrition_data",
+          "notion_structured",
+          "notion_extended",
+          "onenote_reflection",
+          "local_files",
+          "external_drive_files",
+          "ubz_framework",
+          "notebooklm_research",
+          "web_evidence"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "locked": {
+      "type": "boolean"
+    },
+    "reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
+

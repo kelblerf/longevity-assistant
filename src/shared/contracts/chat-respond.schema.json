@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/chat-respond.schema.json",
+  "title": "ChatRespondInput",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["conversationId", "message"],
+  "properties": {
+    "conversationId": { "type": "string" },
+    "message": { "type": "string", "minLength": 1 }
+  }
+}

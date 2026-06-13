@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/user-profile.schema.json",
+  "title": "UserProfile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "displayName",
+    "ageGroup",
+    "healthGoals",
+    "constraints",
+    "preferences",
+    "trustedSources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "ageGroup": {
+      "type": "string"
+    },
+    "healthGoals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trustedSources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "guidanceStyle": {
+      "type": "string"
+    },
+    "dailyRhythm": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dnaUsagePolicy": {
+      "type": "string"
+    }
+  }
+}
+

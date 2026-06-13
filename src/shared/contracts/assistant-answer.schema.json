@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://longevity-assistant.local/contracts/assistant-answer.schema.json",
+  "title": "AssistantAnswer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "selectedScope",
+    "sections",
+    "nextSteps",
+    "sources"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "selectedScope": {
+      "$ref": "source-scope.schema.json"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "title",
+          "content"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "profile_context",
+              "evidence_basis",
+              "ubz_basis",
+              "dna_signal",
+              "extended_context",
+              "model_interpretation"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nextSteps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "type"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+
