@@ -282,7 +282,7 @@ Biomarker vrstva se ma napojit na:
 - `DailyCheckIn`
   - napr. energie, stres, spanek
 - `Evidence layer`
-  - NotebookLM a Blood Biomarkers knowledge
+  - evidence/research vrstva a biomarker knowledge base
 
 ## Doporucene marker groups pro prvni ingest
 

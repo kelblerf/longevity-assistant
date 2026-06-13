@@ -4,10 +4,10 @@ Datum: 2026-06-03
 
 Navazuje na:
 
-- [longevity-assistant-plan.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-plan.md)
-- [longevity-assistant-use-cases.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-use-cases.md)
-- [longevity-assistant-mvp-spec.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-mvp-spec.md)
-- [longevity-assistant-technical-backlog.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-technical-backlog.md)
+- [01-plan.md](../planning/01-plan.md)
+- [02-use-cases.md](./02-use-cases.md)
+- [03-mvp-spec.md](./03-mvp-spec.md)
+- [05-technical-backlog.md](../technical/05-technical-backlog.md)
 
 ## 1. Executive summary
 
@@ -19,7 +19,7 @@ Longevity Assistant je osobni AI asistent zamereny na zdravy zivotni styl, longe
 - umi navrhnout dalsi konkretni krok
 - umi vysledek vratit zpet do vaseho systemu
 
-Prvni verze nema byt "AI na vsechno", ale `chat-first Longevity Copilot`.
+Prvni verze nema byt AI na vsechno, ale `chat-first Longevity Copilot`.
 
 ## 2. Problem statement
 
@@ -37,8 +37,8 @@ Existujici chatboty umi odpovidat obecne, ale neznaji vas do hloubky ani neumi s
 Vytvorit osobni AI operacni system pro zdravi, longevity a rozhodovani, ktery casem propoji:
 
 - osobni profil a pamet
-- Notion
-- OneNote
+- knowledge workspace
+- osobni poznamky
 - internetovy research
 - pozdeji i Home Assistant, Foxtrot, soubory a media workflow
 
@@ -46,7 +46,7 @@ Vytvorit osobni AI operacni system pro zdravi, longevity a rozhodovani, ktery ca
 
 Hlavni cil prvni verze:
 
-> Umoznit vam dostat personalizovanou, zdrojovane podlozenou odpoved na otazky kolem zdravi a longevity, zalozenou na vasem profilu, Notionu, OneNote a aktualnim web researchi.
+> Umoznit vam dostat personalizovanou, zdrojovane podlozenou odpoved na otazky kolem zdravi a longevity, zalozenou na vasem profilu, osobnich zdrojich a aktualnim web researchi.
 
 ## 5. Non-goals pro MVP
 
@@ -85,11 +85,11 @@ MVP musi umet:
 
 - personalizovany chat
 - structured personal memory
-- cteni z Notion
-- cteni z OneNote
+- cteni z knowledge workspace
+- cteni z osobnich poznamek
 - web research se zdroji
 - oddeleni faktu, citaci a interpretace
-- zapis shrnuti nebo follow-upu do Notion
+- zapis shrnuti nebo follow-upu do zapisove vrstvy
 
 MVP nemusi umet:
 
@@ -120,7 +120,7 @@ Toto je nejvyssi autorita pro:
 - omezeni
 - pravidla
 
-### Notion
+### Knowledge workspace
 
 Hlavni knowledge base pro:
 
@@ -130,32 +130,27 @@ Hlavni knowledge base pro:
 
 Aktualne identifikovane relevantni zdroje:
 
-- [Blood Biomarkers - Source of Truth](https://www.notion.so/32a1b27aac7e80f883c4c392744dae8e?pvs=1)
-- [NotebookLM - Medical Fundation](https://www.notion.so/32a1b27aac7e80b08edfd8f952014d22?pvs=1)
-- [Longevity APP - Projekt Hub (Master page)](https://www.notion.so/32a1b27aac7e80248820d47d2898108a)
-- [Energo evoluce 2025](https://www.notion.so/3f07eaf8b5fa407e836b220568780d64)
-- [Vize Klub UBZ](https://www.notion.so/19d1b27aac7e8034abf9c25e1e89f91d)
-- [VIZE Umění být zdráv](https://www.notion.so/daef812067644ecc874189de396e1c31)
-- [Manifest Tvůrce](https://www.notion.so/19d1b27aac7e80abb00cd95e70bc9710)
-- [Člověkologie](https://www.notion.so/19d1b27aac7e8084915fef5ff20288c8)
-- `Půsty a dech v souvislostech`
+- biomarker knowledge base
+- medical evidence and research hub
+- project hub and operational context
+- behavioralni a rytmicka knowledge vetev
+- tematicka vrstva pro pust, dech a regeneraci
+- relevantni reflektivni a poznamkove zdroje
 
-UBZ ma v tomto navrhu specifickou roli. Konkretne jde o tematickou vetev:
-
-`Digitální druhý mozek / Témata / UBZ Energo evoluce 2025`
+UBZ ma v tomto navrhu specifickou roli. Konkretne jde o behavioralni a rytmickou knowledge vetev v osobnim knowledge systemu.
 
 Tedy:
 
 - ne jako hlavni medicinska autorita
 - ale jako dulezita obsahova a metodicka vrstva pro navyky, regeneraci, osobni zmenu, motivaci a jazyk doporuceni
-- a nově i jako nosna vrstva pro `dech` a jeho vyznam pro regulaci stresu, vnitrni stabilitu, rytmus a dlouhodobou vitalitu
+- a take jako nosna vrstva pro `dech` a jeho vyznam pro regulaci stresu, vnitrni stabilitu, rytmus a dlouhodobou vitalitu
 
 Prakticke pravidlo:
 
 - pokud jde o laboratorni nebo zdravotni tvrzeni, asistent musi UBZ kombinovat s biomarkerovou a evidence-based vrstvou
 - pokud jde o denni rytmus, pristupy k regeneraci, dech, hodnoty a behavioralni doporuceni, UBZ muze byt silna personalizacni vrstva
 
-### OneNote
+### Personal notes
 
 Doplnkova knowledge base pro:
 
@@ -175,7 +170,7 @@ Pouzit jen kdyz:
 
 ## 11. UX principle
 
-Asistent nesmi pusobit jako "magicka cerna skrinka".
+Asistent nesmi pusobit jako magicka cerna skrinka.
 
 Kazda dulezita odpoved ma umet rozlisit:
 
@@ -186,14 +181,14 @@ Kazda dulezita odpoved ma umet rozlisit:
 
 ## 12. Key use-cases
 
-Nejdůležitější use-cases MVP:
+Nejdůlezitejsi use-cases MVP:
 
 1. `Co je pro me dnes nejdulezitejsi udelat pro zdravi a proc?`
 2. `Shrn mi, co o mne vis v oblasti spanku, stresu, energie a longevity.`
-3. `Najdi vse, co uz mam k tematu X v Notion a OneNote.`
+3. `Najdi vse, co uz mam k tematu X v mych zdrojich.`
 4. `Dohledej aktualni pohled na tema X a porovnej to s mym kontextem.`
 5. `Navrhni mi tydenni plan malych kroku.`
-6. `Uloz shrnuti do Notion a vytvor mi follow-up.`
+6. `Uloz shrnuti do systemu a vytvor mi follow-up.`
 
 ## 13. Functional requirements
 
@@ -211,8 +206,8 @@ Nejdůležitější use-cases MVP:
 
 ### Knowledge retrieval
 
-- system umi nacist a indexovat vybrane Notion zdroje
-- system umi nacist a indexovat vybrane OneNote sekce
+- system umi nacist a indexovat vybrane knowledge zdroje
+- system umi nacist a indexovat vybrane osobni poznamky
 - system umi vyhledavat relevantni pasaze
 
 ### Research
@@ -224,7 +219,7 @@ Nejdůležitější use-cases MVP:
 ### Actions
 
 - system umi pripravit shrnuti
-- system umi po potvrzeni zapsat shrnuti do Notion
+- system umi po potvrzeni zapsat shrnuti do systemu
 - system umi po potvrzeni vytvorit follow-up
 
 ## 14. Safety and trust requirements
@@ -272,8 +267,8 @@ Hlavni rizika:
 
 ### Faze 2
 
-- Notion ingest
-- OneNote ingest
+- knowledge ingest
+- personal notes ingest
 - retrieval
 
 ### Faze 3
@@ -284,7 +279,7 @@ Hlavni rizika:
 
 ### Faze 4
 
-- Notion write-back
+- write-back
 - follow-up flow
 - review queue
 

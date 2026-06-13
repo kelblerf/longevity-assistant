@@ -4,7 +4,7 @@ Datum: 2026-06-03
 
 Navazuje na dokument:
 
-- [longevity-assistant-plan.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-plan.md)
+- [01-plan.md](../planning/01-plan.md)
 
 ## 1. Princip prioritizace
 
