@@ -4,9 +4,9 @@ Datum: 2026-06-03
 
 Navazuje na:
 
-- [longevity-assistant-plan.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-plan.md)
-- [longevity-assistant-use-cases.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-use-cases.md)
-- [longevity-assistant-mvp-spec.md](C:/Users/Petr/Documents/Codex/2026-06-02/notion-plugin-notion-openai-curated-p/outputs/longevity-assistant-mvp-spec.md)
+- [01-plan.md](../planning/01-plan.md)
+- [02-use-cases.md](../product/02-use-cases.md)
+- [03-mvp-spec.md](../product/03-mvp-spec.md)
 
 ## 1. Cilem tohoto dokumentu je
 

@@ -9,7 +9,7 @@ Zakladni principy:
 - jadro produktu je osobni duverny radce
 - hlavni interpretacni ramec je `UBZ`
 - `dech` je nosna cast UBZ vrstvy
-- `NotebookLM` patri do `evidence/research layer`
+- external research hub patri do `evidence/research layer`
 - `DNA` je silna personalizacni vrstva, ale jen jako doporuceni, ne verdikt
 - system je `chat-first + volitelny hlas`
 - `AI` je jadro porozumeni, spojovani souvislosti, detekce konfliktu a doporucovani
@@ -41,16 +41,16 @@ Nejvyssi autorita pro:
 
 ### Domain knowledge
 
-- `Digitální druhý mozek / Témata / UBZ Energo evoluce 2025`
-- `Půsty a dech v souvislostech`
-- `Blood Biomarkers - Source of Truth`
-- `NotebookLM - Medical Fundation`
-- `Longevity APP - Projekt Hub`
-- relevantni OneNote sekce
+- behavioralni a rytmicka knowledge vetev
+- tematicka vrstva pro pust, dech a regeneraci
+- biomarker knowledge base
+- medical evidence and research hub
+- project hub
+- relevantni osobni poznamky
 
 ### Extended sources
 
-- dalsi casti Notion
+- dalsi casti knowledge workspace
 - lokalni soubory na PC
 - soubory na externim HDD
 - web research
@@ -58,7 +58,7 @@ Nejvyssi autorita pro:
 ## Final rules
 
 - `UBZ` je hlavni behavioralni a interpretacni vrstva
-- `NotebookLM` je research a evidence vrstva, ne osobni pravda
+- external research hub je research a evidence vrstva, ne osobni pravda
 - `DNA` je signal pro doporuceni, ne konecny rozsudek
 - rozsirene zdroje maji dynamickou autoritu podle tematu
 - text je kanonicka komunikacni vrstva

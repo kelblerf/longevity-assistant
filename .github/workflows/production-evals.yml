@@ -2,19 +2,9 @@ name: Production Evals
 
 on:
   pull_request:
-    paths:
-      - "src/backend/**"
-      - "scripts/run-production-evals.ps1"
-      - "package.json"
-      - ".github/workflows/production-evals.yml"
   push:
     branches:
       - main
-    paths:
-      - "src/backend/**"
-      - "scripts/run-production-evals.ps1"
-      - "package.json"
-      - ".github/workflows/production-evals.yml"
   workflow_dispatch:
 
 permissions:

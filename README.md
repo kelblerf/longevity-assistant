@@ -1,72 +1,100 @@
-# Longevity-assistant
+# longevity-assistant
 
-Osobni AI radce a aktivni pruvodce dne pro zdravi, longevity, regeneraci, pohyb, dech, rytmus a dlouhodobe osobni vedeni.
+Personal AI assistant for daily health guidance, longevity routines, recovery, movement, breathwork, rhythm, and long-term personal support.
 
-## Projektovy zamer
+This repository contains the early product and technical foundation for a chat-first assistant that combines:
 
-Jadro produktu je:
+- guided daily support
+- scoped knowledge retrieval over trusted sources
+- personal context and rules
+- preparation for voice, biomarker, and genetics workflows
 
-- osobni duverny radce
-- chat-first system s volitelnym hlasem
-- hybridni knowledge system nad vasimi zdroji
-- AI vrstva pro porozumeni, spojovani souvislosti a doporucovani
+## Current state
 
-Klicove principy:
+The project already includes:
 
-- `UBZ` je hlavni interpretacni a behavioralni vrstva
-- `dech` je nosna soucast navrhu, ne pozdejsi doplnek
-- `NotebookLM` patri do `evidence/research layer`
-- `DNA` je silna personalizacni vrstva, ale pouze jako doporuceni, ne konecny verdikt
-- zdroje jsou rizene pres `source-scope engine`
+- Next.js frontend for the chat experience in `src/frontend`
+- FastAPI backend for assistant orchestration in `src/backend`
+- shared contracts in `src/shared`
+- initial Notion sync/audit plumbing
+- production eval workflow in GitHub Actions
 
-## Projektovy domov
+This is still an active build, not a finished production release.
 
-Tento projekt je samostatny podprojekt uvnitr:
+## Local development
 
-- [Longevity](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity)
+### Requirements
 
-Jeho aktualni koren je:
+- Node.js with npm
+- Python 3.11+
+- local virtual environment in `.venv`
 
-- [longevity-assistant](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant)
+### Environment
 
-## Dulezite dokumenty
+Copy `.env.example` to `.env` and fill in the values you want to use locally.
 
-- [docs/planning/01-plan.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/planning/01-plan.md)
-- [docs/product/02-use-cases.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/product/02-use-cases.md)
-- [docs/product/03-mvp-spec.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/product/03-mvp-spec.md)
-- [docs/product/04-prd.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/product/04-prd.md)
-- [docs/product/05-stable-foundation-v5.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/product/05-stable-foundation-v5.md)
-- [docs/technical/05-technical-backlog.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/05-technical-backlog.md)
-- [docs/technical/06-architecture-foundation.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/06-architecture-foundation.md)
-- [docs/technical/07-implementation-roadmap.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/07-implementation-roadmap.md)
+Important:
 
-## Klicove knowledge zdroje
+- `.env` is local-only and is ignored by git
+- runtime files under `data/runtime/` are also ignored by git
+- do not commit personal health data, tokens, or private workspace exports
 
-- `Digitální druhý mozek / Témata / UBZ Energo evoluce 2025`
-- `Půsty a dech v souvislostech`
-- `Blood Biomarkers - Source of Truth`
-- `NotebookLM - Medical Fundation`
-- `Longevity APP - Projekt Hub`
-- relevantni OneNote sekce
-- rozsirene Notion oblasti
-- lokalni soubory a externi HDD jako doplnkove zdroje
+### Run the app
 
-## Struktura implementace
+Frontend:
 
-- `src/frontend/` - budouci chat-first klient
-- `src/backend/` - budouci API, orchestrace a moduly
-- `src/shared/` - budouci sdilene typy a kontrakty
-- `data/` - navrh datovych modelu, schemas a importnich map
-- `integrations/` - konektory a integracni specifikace
-- `notes/` - pracovni poznamky a dalsi rozhodnuti
+```powershell
+npm run dev:frontend
+```
 
-## Stav
+Backend:
 
-Zakladni planovaci a architektonicka faze je pripravena.
-Projekt je pripraveny na navazujici implementaci bez zmeny jadra.
+```powershell
+npm run dev:backend
+```
 
-## Nove workflow
+### Verification
 
-- [08-dna-import-workflow.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/08-dna-import-workflow.md)
-- [09-biomarker-data-model.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/09-biomarker-data-model.md)
-- [10-biomarker-intake-google-sheets.md](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/docs/technical/10-biomarker-intake-google-sheets.md)
+Frontend build:
+
+```powershell
+npm run build:frontend
+```
+
+Production eval suite:
+
+```powershell
+npm run eval:production
+```
+
+## Repository structure
+
+- `src/frontend/` - chat-first web client
+- `src/backend/` - API, orchestration, services, tests
+- `src/shared/` - shared contracts and types
+- `docs/` - product, architecture, and implementation documents
+- `scripts/` - local automation and developer scripts
+- `integrations/` - integration-oriented assets and specs
+
+## Key documents
+
+- [Plan](docs/planning/01-plan.md)
+- [Use cases](docs/product/02-use-cases.md)
+- [MVP spec](docs/product/03-mvp-spec.md)
+- [PRD](docs/product/04-prd.md)
+- [Stable foundation](docs/product/05-stable-foundation-v5.md)
+- [Technical backlog](docs/technical/05-technical-backlog.md)
+- [Architecture foundation](docs/technical/06-architecture-foundation.md)
+- [Implementation roadmap](docs/technical/07-implementation-roadmap.md)
+
+## Safety and privacy
+
+This repository is intended for code, architecture, and product work.
+
+- Keep personal data, health data, API tokens, and private source exports out of git.
+- Use placeholder values in examples and screenshots.
+- If you discover a security issue, follow the guidance in [SECURITY.md](SECURITY.md).
+
+## License
+
+No open-source license has been selected yet. Until a license is added, default copyright applies.

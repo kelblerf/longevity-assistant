@@ -28,7 +28,7 @@ Pro prvni iteraci:
 
 Pracovni vstupni soubor je:
 
-- [notes/dna-import-source.txt](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/notes/dna-import-source.txt)
+- [notes/dna-import-source.txt](../../notes/dna-import-source.txt)
 
 Sem vlozte vybrane pasaze z Google dokumentu.
 
@@ -40,7 +40,7 @@ Sem vlozte vybrane pasaze z Google dokumentu.
 npm run dev:backend
 ```
 
-2. Naplnte [notes/dna-import-source.txt](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/notes/dna-import-source.txt)
+2. Naplnte [notes/dna-import-source.txt](../../notes/dna-import-source.txt)
 
 3. Pustte draft import:
 
@@ -85,7 +85,7 @@ Po kontrole draftu lze potvrzeny profil zapsat do:
 
 Kanonicky profil se uklada do:
 
-- [data/runtime/genetic-profile.json](C:/Users/Petr/Documents/AI_ChatGPT_Projekt_Kartičky/Longevity/longevity-assistant/data/runtime/genetic-profile.json)
+- [data/runtime/genetic-profile.json](../../data/runtime/genetic-profile.json)
 
 ## Prakticka metodika
 
